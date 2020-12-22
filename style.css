@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+body,
+html {
+  background-color: #f9f7f1; /* News Paper color */
+  user-select: none;
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+
+.main {
+  margin: 20px;
+}
+.btn {
+  margin;
+  padding: 5px;
+  border: 2px solid black;
+  background-color: #f9f7f1;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: white;
+}
+#myText {
+  outline: none;
+  border-radius: 4px;
+  border: 2px solid black;
+  padding: 5px 5px;
+  font-size: 32px;
+}
+.problem {
+  font-size: 32px;
+}
+.label {
+  font-size: 32px;
+  color: coral;
+  margin-left: 5px;
+}
+header {
+  display: flex;
+  justify-content: center; /* centers it horizontally */
+  align-items: center; /* centers it vertically */
+  background-color: rgb(68, 90, 90);
+  color: #f9f7f1;
+  height: 30px;
+  margin-bottom: 20px;
+}
+input {
+  max-width: 75px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+/* Removing input arrows */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
